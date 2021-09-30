@@ -9,9 +9,9 @@ Replicating 《Self-Attention Generative Adversarial Networks》 with PaddlePadd
 
 ## 二、复现精度
 模型在LSVRC2012(ImageNet)上进行测试，随机以1000类标签为条件生成了50000张图像进行评估，评估指标FID值和IS值如下所示：  
-FID | 栏目2 
+FID | 18.1482 
 
-IS | 内容2 
+IS | 51.6682 
 
 ### 预训练模型下载
 下载地址：链接：https://pan.baidu.com/s/17UPXPI3WU2EekAtpfP-sug      提取码：9812
