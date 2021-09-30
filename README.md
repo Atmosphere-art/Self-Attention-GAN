@@ -3,7 +3,7 @@ Replicating 《Self-Attention Generative Adversarial Networks》 with PaddlePadd
 使用PaddlePaddle复现《Self-Attention Generative Adversarial Networks》论文
 
 ## 一、简介
-本项目基于paddlepaddle框架复现SAGAN，SAGAN是一种以标签为条件的图像生成网络。输入图像标签与随机产生的噪声，就可以生成对应标签的图像。  
+本项目基于paddlepaddle框架复现SAGAN，SAGAN是一种以标签为条件的图像生成网络。输入图像标签与随机产生的噪声，就可以生成对应标签的图像。此次复现完全按照原论文的实验参数进行设置，采用4卡并行训练。
 ### 论文
 [1] Zhang, Han, et al. "Self-attention generative adversarial networks." International conference on machine learning. PMLR, 2019.
 
@@ -54,6 +54,7 @@ python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_p
 data_path：训练集路径  
 test_data_path：验证集路径，用来随机读取标签  
 pretrained_model：测试时所加载的模型路径  
+parallel: 是否多卡并行训练，设为1即多卡并行训练
 
 ## 七、模型信息
 信息 | 说明 
