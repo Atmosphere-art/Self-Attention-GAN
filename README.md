@@ -13,6 +13,12 @@ FID | 18.1482
 
 IS | 51.6682 
 
+![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_02505.png)
+![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_03797.png)
+![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_04168.png)
+![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_04341.png)
+![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_10995.png)
+
 ### 预训练模型下载
 下载地址：链接：https://pan.baidu.com/s/17UPXPI3WU2EekAtpfP-sug      提取码：9812
 
