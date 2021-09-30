@@ -16,6 +16,10 @@ IS | 51.6682
 ### 预训练模型下载
 下载地址：链接：https://pan.baidu.com/s/17UPXPI3WU2EekAtpfP-sug      提取码：9812
 
+### 训练日志下载
+链接：https://pan.baidu.com/s/13g0jTZOu6zL9rB2znndYqA 
+提取码：2012
+
 ## 三、数据集
 LSVRC2012(ImageNet)数据集  
 数据集大小：  
