@@ -45,7 +45,7 @@ python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_p
 ├─train.py                                              # 训练  
 ├─trainer.py                                            # 训练  
 ├─utils.py                                              # 图像保存,dataloader创建等方法  
-├─sagan_models                                          # 模型  
+├─sagan_models                                          # 存储日志等内容的文件夹  
 |  samplers                                             # 训练时生成的图片结果  
 |  weights                                              # 训练时保存的checkpoint  
 |  log.txt                                              # 训练日志  
