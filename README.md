@@ -13,7 +13,7 @@ FID | 栏目2
 
 IS | 内容2 
 
-### 模型下载
+### 预训练模型下载
 下载地址：
 
 ## 三、数据集
@@ -29,4 +29,10 @@ PaddlePaddle 2.1.1
 
 ## 五、快速开始
 ### 训练
-多卡训练： 
+多卡训练：python -m paddle.distributed.launch train.py --data_path '.../train'
+单卡训练：python train.py --data_path '.../train'
+说明：data_path为训练集路径
+
+### 测试
+python test.py --test_data_path '.../val'
+说明：test_data_path为验证集路径，用来随机读取标签
