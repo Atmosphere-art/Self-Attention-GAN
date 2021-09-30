@@ -31,13 +31,12 @@ PaddlePaddle 2.1.1
 ### 训练
 多卡训练：python -m paddle.distributed.launch train.py --data_path '.../train'  
 单卡训练：python train.py --data_path '.../train'  
-说明：data_path为训练集路径
 
 ### 测试
 python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_pretrained.pdparams'
-说明：test_data_path为验证集路径，用来随机读取标签
 
 ## 六、代码结构与详细说明
+### 代码结构
 ├─dataset.py                                            # 读取数据集  
 ├─parameters.py                                         # 参数设置  
 ├─sagan_models.py                                       # 模型  
@@ -51,3 +50,7 @@ python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_p
 |  weights                                              # 训练时保存的checkpoint  
 |  log.txt                                              # 训练日志  
 
+### 参数说明
+data_path：训练集路径
+test_data_path：验证集路径，用来随机读取标签
+pretrained_model：测试时所加载的模型路径
