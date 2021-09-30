@@ -17,22 +17,22 @@ IS | 内容2
 下载地址：
 
 ## 三、数据集
-LSVRC2012(ImageNet)数据集
-数据集大小：
-  训练集：1000个类别，一共1279591张图片
-  验证集：1000个类别，每个类别50张图片
+LSVRC2012(ImageNet)数据集  
+数据集大小：  
+  训练集：1000个类别，一共1279591张图片  
+  验证集：1000个类别，每个类别50张图片  
   测试集：10000张图片
   
 ## 四、环境依赖
-python 3.7
+python 3.7  
 PaddlePaddle 2.1.1
 
 ## 五、快速开始
 ### 训练
-多卡训练：python -m paddle.distributed.launch train.py --data_path '.../train'
-单卡训练：python train.py --data_path '.../train'
+多卡训练：python -m paddle.distributed.launch train.py --data_path '.../train'  
+单卡训练：python train.py --data_path '.../train'  
 说明：data_path为训练集路径
 
 ### 测试
-python test.py --test_data_path '.../val'
+python test.py --test_data_path '.../val'  
 说明：test_data_path为验证集路径，用来随机读取标签
