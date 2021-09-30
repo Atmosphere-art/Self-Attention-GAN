@@ -14,7 +14,7 @@ FID | 栏目2
 IS | 内容2 
 
 ### 预训练模型下载
-下载地址：
+下载地址：链接：https://pan.baidu.com/s/17UPXPI3WU2EekAtpfP-sug  提取码：9812
 
 ## 三、数据集
 LSVRC2012(ImageNet)数据集  
