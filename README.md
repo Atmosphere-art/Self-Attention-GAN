@@ -34,5 +34,20 @@ PaddlePaddle 2.1.1
 说明：data_path为训练集路径
 
 ### 测试
-python test.py --test_data_path '.../val'  
+python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_pretrained.pdparams'
 说明：test_data_path为验证集路径，用来随机读取标签
+
+## 六、代码结构与详细说明
+├─dataset.py                                            # 读取数据集
+├─parameters.py                                         # 参数设置
+├─sagan_models.py                                       # 模型
+├─test.py                                               # 测试
+├─tester.py                                             # 测试
+├─train.py                                              # 训练
+├─trainer.py                                            # 训练
+├─utils.py                                              # 图像保存,dataloader创建等方法
+├─sagan_models                                          # 模型
+|  samplers                                             # 训练时生成的图片结果
+|  weights                                              # 训练时保存的checkpoint
+|  log.txt                                              # 训练日志
+
