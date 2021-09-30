@@ -8,4 +8,7 @@ Replicating 《Self-Attention Generative Adversarial Networks》 with PaddlePadd
 [1] Zhang, Han, et al. "Self-attention generative adversarial networks." International conference on machine learning. PMLR, 2019.
 
 ## 二.复现精度
-模型在LSVRC2012(ImageNet)上进行测试，随机以1000类标签为条件生成了50000张图像进行评估，评估指标FID值和IS值如下表所示：  
+模型在LSVRC2012(ImageNet)上进行测试，随机以1000类标签为条件生成了50000张图像进行评估，评估指标FID值和IS值如下所示：  
+FID | 栏目2 
+
+IS | 内容2 
