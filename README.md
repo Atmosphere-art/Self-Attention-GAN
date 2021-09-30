@@ -51,6 +51,19 @@ python test.py --test_data_path '.../val' --pretrained_model '.../sagan_paddle_p
 |  log.txt                                              # 训练日志  
 
 ### 参数说明
-data_path：训练集路径
-test_data_path：验证集路径，用来随机读取标签
-pretrained_model：测试时所加载的模型路径
+data_path：训练集路径  
+test_data_path：验证集路径，用来随机读取标签  
+pretrained_model：测试时所加载的模型路径  
+
+## 七、模型信息
+信息 | 说明 
+
+发布者 | 王仁君
+
+时间 | 2021.09
+
+框架版本 | PaddlePaddle 2.1.1
+
+应用场景 | 图像生成
+
+支持硬件 | CPU、GPU
