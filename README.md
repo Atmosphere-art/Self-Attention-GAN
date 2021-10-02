@@ -13,6 +13,7 @@ FID | 18.1482
 
 IS | 51.6682 
 
+部分生成样例如下：  
 ![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_02505.png)
 ![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_03797.png)
 ![image](https://github.com/Atmosphere-art/Self-Attention-GAN/blob/main/fake_04168.png)
