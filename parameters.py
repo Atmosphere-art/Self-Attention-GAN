@@ -23,7 +23,7 @@ def get_parameters():
     parser.add_argument('--num_classes', type=int, default=1000)
 
     # Training settings
-    parser.add_argument('--batch_size', type=int, default=49)
+    parser.add_argument('--batch_size', type=int, default=64)
     # parser.add_argument('--batch_size_in_gpu', type=int, default=0,
     #                     help='0 => same as batch_size, else: if using multiple gpu iterations to make an effective batch, e.g. batch_size=32, batch_size_in_gpu=16 => optimizer.step() is run 2 iterations after running loss.backward()')
     parser.add_argument('--total_step', type=int, default=3000000, help='how many iterations') # 1个iter batch_size张图     100个epoch
